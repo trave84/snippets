@@ -49,3 +49,15 @@ Also for Browsersync
 
 _This might be able to serve as a production ready code basis._ 
 
+
+## 04-folders
+
+Same as 03 but let's keep things more organized with folders.
+
+`/src/static/` contains all files, that will be just copied as they are to the root of the website
+
+`/src/scss/` contains all scss source files to
+
+`/dist/` is created by gulp and contains the completed website and can be uploaded anywhere 
+
+_This could be used to create a static website from scratch._
