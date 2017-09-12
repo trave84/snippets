@@ -54,9 +54,9 @@ _This might be able to serve as a production ready code basis._
 
 Same as 03 but let's keep things more organized with folders.
 
-`/src/static/` contains all files, that will be just copied as they are to the root of the website
+`/src/static/` contains files that will be just copied as they are to the root of the website
 
-`/src/scss/` contains all scss source files to
+`/src/scss/` contains all scss source files to be compiled to css
 
 `/dist/` is created by gulp and contains the completed website and can be uploaded anywhere 
 
