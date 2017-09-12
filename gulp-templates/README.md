@@ -61,3 +61,17 @@ Same as 03 but let's keep things more organized with folders.
 `/dist/` is created by gulp and contains the completed website and can be uploaded anywhere 
 
 _This could be used to create a static website from scratch._
+
+
+## 05-deployment
+
+Same as 04 but with added option to deploy directly with gulp to [surge.sh](https://surge.sh).
+
+### What is required for the deployment to be working
+
+1. Install surge client `npm install --global surge`.
+1. Run `surge` manually once in `/dist`: you will create an account with surge.sh.
+1. Set your own domain in `gulpfile.js` (replace `https://domainofyourchoice.surge.sh`).
+1. From now on run `gulp deploy` whenever you want to publish a new version.
+
+If you want multiple people to be able to deploy to the same domain, run `surge --add mail.your.collaborator.used.to.register.with.surge@example.com` for each.
