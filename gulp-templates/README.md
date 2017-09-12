@@ -28,3 +28,13 @@ Browsersync automatically refreshing `.html` and `.css` files in root folder.
 
 Same as 01 but also compiling `index.css` from Sass (scss) in `index.scss`. Generating sourcemaps too. 
 
+
+## 03-advanced-css-compiling
+
+Same as 02 but resulting CSS  
+
+- is autoprefixed for vendor prefixes
+- and some flexbox bugs are fixed 
+- and minified in the end
+
+Also Browsersync's server is set to try `/example.html` when `/example` is required. 
