@@ -41,8 +41,9 @@ Same as 02 but resulting CSS
 - and some flexbox bugs are fixed 
 - and minified in the end
 
-Also Browsersync's server is set to try `/example.html` when `/example` is required. 
+Also for Browsersync
+- server is set to try `/example.html` when `/example` is required.
+- watches any html file (including those in subfolders) 
 
 _This might be able to serve as a production ready code basis._ 
-
 
