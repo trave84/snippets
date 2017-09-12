@@ -32,7 +32,7 @@ Same as 01 but also compiling `index.css` from Sass (scss) in `index.scss`. Gene
 
 Also Browsersync server runs on different port.
 
-_Again more of a example for learning._ 
+_Again more of an example for learning._ 
 
 
 ## 03-advanced-css-compiling
