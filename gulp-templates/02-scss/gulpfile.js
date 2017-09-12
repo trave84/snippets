@@ -28,6 +28,7 @@ gulp.task('develop', ['css:compile'], function(){
         server: {
             baseDir: './' // serve from folder that this file is located
         },
+        port: 3020,
         files: ['*.html'] // watch for changes all files named anything.html in the same folder gulpfile.js is located
     });
     gulp.watch('*.scss', ['css:compile']); // watch for changes in scss files

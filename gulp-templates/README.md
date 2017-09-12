@@ -30,6 +30,8 @@ _This is mainly the most simple example._
 
 Same as 01 but also compiling `index.css` from Sass (scss) in `index.scss`. Generating sourcemaps too.
 
+Also Browsersync server runs on different port.
+
 _Again more of a example for learning._ 
 
 

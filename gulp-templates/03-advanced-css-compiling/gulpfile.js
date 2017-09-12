@@ -50,6 +50,7 @@ gulp.task('develop', ['css:compile'], function(){
                 extensions: ['html']
             }
         },
+        port: 3030,
         files: ['**/*.html'] // watch for changes all files named anything.html in any subfolder
     });
     gulp.watch('*.scss', ['css:compile']); // watch for changes in scss files
