@@ -2,7 +2,7 @@
 
 Various Gulp configurations to serve as basis for your projects.
 
-Expecting you have already installed _node.js_ and Gulp-cli `npm install -g gulp-cli` (as Administrator or with `sudo` on OSX/Linux). 
+Expecting you have already installed _node.js_ and Gulp-cli `npm install -g gulp-cli` (as Administrator on Windows and might need `sudo` on OSX/Linux).
 
 Always the same install with 
 
