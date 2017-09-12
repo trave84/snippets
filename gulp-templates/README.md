@@ -75,3 +75,12 @@ Same as 04 but with added option to deploy directly with gulp to [surge.sh](http
 1. From now on run `gulp deploy` whenever you want to publish a new version.
 
 If you want multiple people to be able to deploy to the same domain, run `surge --add mail.your.collaborator.used.to.register.with.surge@example.com` for each.
+
+
+## 06-php-backend
+
+Same as 04 but instead of using static HTML files it proxies another server running on http://localhost:8080/ and watches for changes in PHP files. 
+
+You need to have this server up and running correctly before starting gulp.
+
+In this case only static files and scss are moved to `/dist/` folder. PHP files are not moved there.
