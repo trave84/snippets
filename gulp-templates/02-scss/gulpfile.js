@@ -2,13 +2,13 @@
 var gulp = require('gulp');
 
 var browserSync = require('browser-sync').create();
-var clean = require('gulp-clean');
+var del = require('del');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
 // a task to delete all css files in main folder
 gulp.task('css:clean', function(){
-	return gulp.src('*.css', { read: false }).pipe(clean());
+	return del(['*.css'], { force: true });
 });
 
 // CSS compilation (also deletes css files first using previously defined task)
