@@ -1,4 +1,4 @@
-#Gulp by examples
+# Gulp by examples
 
 Various Gulp configurations to serve as basis for your projects.
 
