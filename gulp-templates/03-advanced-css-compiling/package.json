@@ -1,12 +1,12 @@
 {
-  "name": "GulpTemplate02",
+  "name": "GulpTemplate03",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
     "autoprefixer": "^7.1.4",
     "browser-sync": "^2.18.7",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
     "gulp-postcss": "^7.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.4.1"
