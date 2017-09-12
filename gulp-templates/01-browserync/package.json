@@ -1,0 +1,15 @@
+{
+  "name": "GulpTemplate01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Srb",
+  "license": "MIT",
+  "description": ""
+}
