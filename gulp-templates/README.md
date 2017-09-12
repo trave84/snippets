@@ -23,3 +23,8 @@ gulp
 
 Browsersync automatically refreshing `.html` and `.css` files in root folder. 
 
+
+## 02-scss
+
+Same as 01 but also compiling `index.css` from Sass (scss) in `index.scss`. Generating sourcemaps too. 
+
