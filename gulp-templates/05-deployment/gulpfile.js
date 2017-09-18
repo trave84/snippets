@@ -70,7 +70,7 @@ gulp.task('develop', ['build'], function(){
             baseDir: './dist', // serve from folder that this file is located
             serveStaticOptions: {
                 // trying a extension when one isn't specified:
-                // effectively means that http://localhost:3000/another-page shows another-page.html
+                // effectively means that http://localhost:3050/another-page shows another-page.html
                 extensions: ['html']
             }
         },
