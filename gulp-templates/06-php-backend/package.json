@@ -18,5 +18,6 @@
   },
   "author": "Daniel Srb",
   "license": "MIT",
-  "description": ""
+  "description": "Browsersync proxying local PHP server. Compiling index.css from index.scss with autoprefixing, fixing flexbox bugs and minifying and everything is organized in folders.",
+  "repository": "https://github.com/codingbootcamppraha/snippets.git"
 }

@@ -18,5 +18,6 @@
   },
   "author": "Daniel Srb",
   "license": "MIT",
-  "description": ""
+  "description": "Browsersync automatically refreshing all HTML and CSS files and compiling index.css from index.scss with autoprefixing, fixing flexbox bugs and minifying and everything is organized in folders.",
+  "repository": "https://github.com/codingbootcamppraha/snippets.git"
 }
