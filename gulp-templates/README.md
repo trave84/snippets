@@ -21,9 +21,9 @@ gulp
 
 ## 01-browserync
 
-Browsersync automatically refreshing `.html` and `.css` files in root folder.
+Browsersync automatically refreshing `.html` and `.css` files in the root folder.
 
-_This is mainly the most simple example._
+_This is mainly the simplest example._
 
 
 ## 02-scss
